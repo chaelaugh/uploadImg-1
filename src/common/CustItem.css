@@ -1,0 +1,54 @@
+.content{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.popups{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.3rem;
+    min-height: 0.88rem;
+    background-color: #fff;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: background-color 200ms;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.label{
+  /*-webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;*/
+  color: #000;
+  font-size: 0.34rem;
+  line-height: 1.5;
+  text-align: left;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 30%;
+  /*padding-top: 0.14rem;*/
+  /*padding-bottom: 0.14rem;*/
+}
+
+.display{
+  flex: 1;
+  text-align: right;
+  align-items: right;
+  /*box-sizing: border-box;*/
+  color:#888888;
+  outline:0;
+  border: none;
+  margin-right: 0.9em;
+  width: 100%;
+}
+.input{
+
+  background-color: red;
+}

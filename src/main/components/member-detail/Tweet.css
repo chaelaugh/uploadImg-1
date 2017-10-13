@@ -1,0 +1,47 @@
+
+.normal {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 26px;
+  margin-bottom: 2px;
+}
+
+.title {
+  font-size: 24px;
+  color: #666;
+}
+
+.dynamicCategoryContext {
+  display: flex;
+  color: #999999;
+  align-items: center;
+  width: 100%;
+}
+
+.dynamicCategory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.dynamicCategory img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.courseContent {
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 20px;
+  color: #999999;
+}
+
+.hobbyTag {
+  margin: 10px;
+  border: 1PX solid red;
+  color: red;
+}

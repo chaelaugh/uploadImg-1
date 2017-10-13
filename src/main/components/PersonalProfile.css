@@ -1,0 +1,105 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 2px;
+}
+
+.title {
+  font-size: 24px;
+  color: #666;
+}
+
+.dynamicCategoryContext {
+  display: flex;
+  color: #999999;
+  align-items: center;
+  width: 100%;
+}
+
+.dynamicCategory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.dynamicCategory img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+
+
+.account {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 3%;
+}
+
+.avatar img {
+  width: 160px;
+  border-radius: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 4;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.member {
+  color: red;
+  border: 1px solid red;
+  border-radius: 40px;
+  font-size: 13px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.id {
+  display: flex;
+  font-size: 24px;
+  color: #999999;
+  margin-top: 20px;
+}
+
+.statusContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2
+}
+
+.status {
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: 26px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,88 @@
+.context{
+  display: flex;
+  flex-direction: column;
+}
+
+.openVip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 20px 40px;
+  background-color: white;
+}
+
+.opVip{
+  display: flex;
+  align-items: center;
+}
+
+.opVip img{
+  width: 84px;
+  height: 84px;
+  margin-right: 20px;
+}
+
+.vipCategory{
+  display: flex;
+  padding: 20px 40px;
+}
+
+.tag{
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-right: 40px;
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  white-space: nowrap;
+}
+
+.selectTag{
+  background-color: #D7AE5B;
+  color: white;
+}
+
+.vipItemContext{
+  display: flex;
+  padding: 20px 40px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.item{
+  padding: 0px 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-right: 40px;
+  border: 1px solid #dcdcdc;
+  white-space: nowrap;
+}
+
+.privilegeContent{
+  display: flex;
+  padding: 20px 40px;
+  flex-direction: column;
+  background-color: white;
+  font-size: 28px;
+  color: #999999;
+}
+
+.privilegeContent p1{
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.privilegeContent p2{
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+.privilegeTitle{
+  margin-bottom: 10px;
+  padding: 20px 40px;
+  background-color: white;
+}

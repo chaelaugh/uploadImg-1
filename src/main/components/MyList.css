@@ -1,0 +1,158 @@
+.context{
+  margin-bottom: 150px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 25px 0px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.account{
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: white;
+}
+
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 3%;
+}
+
+.avatar img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 4;
+  padding: 10px 0px
+}
+
+.name{
+  display: flex;
+  align-items: center;
+}
+
+.member{
+  color: red;
+  border: 1px solid red;
+  border-radius: 40px;
+  font-size: 13px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.level{
+  margin-right: 10px;
+}
+
+.nameText{
+  margin-right: 30px
+}
+
+.name img{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.id{
+  display: flex;
+  font-size: 14px;
+  color: #999999;
+}
+
+.id div{
+  margin-right: 30px;
+}
+
+.statusContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2
+}
+
+.status{
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: 34px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.actionContext{
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  margin-bottom: 15px;
+}
+
+.actionContext img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.actionContext p{
+  color: #f2f2f2;
+}
+
+.action{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dynamic{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.trends{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.actionAccount{
+  padding-right: 30px;
+}
+
+.trendsImage{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: -10px;
+}
+
+.item{
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  align-items: center;
+}
+
+.item img{
+  width: 50px;
+  height: 50px;
+  padding: 20px 25px;
+}
